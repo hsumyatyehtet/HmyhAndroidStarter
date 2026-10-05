@@ -1,0 +1,10 @@
+[
+  { "userId": 1, "id": 1, "title": "Welcome to HmyhAndroidStarter", "body": "These posts are bundled with the app and stored in Room, so the list works without a network connection." },
+  { "userId": 1, "id": 2, "title": "Room is the source of truth", "body": "The screen reads posts from the local database. A network refresh only updates what Room already holds." },
+  { "userId": 1, "id": 3, "title": "Hilt wires every layer", "body": "The ViewModel, use cases, repository, DAO, and Retrofit API are all provided through Dagger Hilt." },
+  { "userId": 2, "id": 4, "title": "Retrofit refreshes the cache", "body": "When the server is reachable, posts from jsonplaceholder.typicode.com replace these sample rows." },
+  { "userId": 2, "id": 5, "title": "Clean architecture", "body": "Domain code has no Android, Room, or Retrofit imports. Data maps DTOs and entities to domain models." },
+  { "userId": 2, "id": 6, "title": "MVVM with StateFlow", "body": "The ViewModel exposes an immutable UiState, and Compose collects it with collectAsStateWithLifecycle." },
+  { "userId": 3, "id": 7, "title": "Offline first", "body": "If a refresh fails, the cached rows stay on screen and the error appears above the list." },
+  { "userId": 3, "id": 8, "title": "Add your own feature", "body": "Create feature/<name>/{domain,data,presentation,di} and reuse the shared database and Retrofit instance." }
+]
