@@ -2,7 +2,7 @@
 
 A simple Android starter app that shows a list of posts.
 
-![Posts list screen](docs/posts-screen.png)
+<img src="docs/posts-screen.png" width="280" alt="Posts list screen" />
 
 The app loads posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts), saves them in a local Room database, and displays them in a Jetpack Compose list (title + body for each post).
 
