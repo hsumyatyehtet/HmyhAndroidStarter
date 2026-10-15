@@ -45,6 +45,8 @@ The app loads posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 
 ```
 UI (Compose) → ViewModel → Use Case → Repository → Room / Retrofit
+
+presentation → domain → data
 ```
 
 ---
